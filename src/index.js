@@ -5,8 +5,8 @@ function homeSlideShow(){
     let index = 0;
     let showArray = [0,1,2,3]
     let changeSlide = ()=>{
-        homeBack.style.background = `url('./src/images/restaurant${showArray[index]}.jpg') center -40px no-repeat `;
-        homeBack.style['background-size'] = '100%'
+        homeBack.style.background = `url('./src/images/restaurant${showArray[index]}.jpg') center no-repeat `;
+        homeBack.style['background-size'] = 'cover'
     }
     setInterval(()=>{
         index += 1
